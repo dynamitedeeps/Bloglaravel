@@ -1,5 +1,6 @@
-@include('header')
+@extends('layout')
 
+@section('content')
     <!-- Topbar Start -->
     <div class="container-fluid d-none d-lg-block">
         <div class="row align-items-center bg-dark px-lg-5">
@@ -671,4 +672,4 @@
     </div>
     <!-- News With Sidebar End -->
 
-@include('footer')
+@endsection
